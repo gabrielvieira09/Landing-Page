@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+#container {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: rgb(54, 54, 54);
+}
+.secoes {
+  margin-left: 80px;
+  color: rgb(187, 188, 188);
+  text-decoration: none;
+}
+#s1:hover {
+  color: rgb(231, 230, 230);
+}
+#s2:hover {
+  color: rgb(231, 230, 230);
+}
+#s3:hover {
+  color: rgb(231, 230, 230);
+}
+#s4:hover {
+  color: rgb(231, 230, 230);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#secao1 {
+  margin-top: 40px;
+  margin-right: 10px;
+  width: 90%;
+  height: 500px;
+  background-color: gray;
+  box-shadow: 1rem 1rem 0 black;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  flex-direction: row;
+  /*box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+*/
   }
-  to {
-    transform: rotate(360deg);
+
+  #secao2 {
+    margin-top: 100px;
+    margin-right: 10px;
+    width: 85%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 12px 12px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  } 
+  #secao3 {
+    margin-top: 60px;
+    margin-right: 10px;
+    width: 85%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 12px 12px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  } 
+  #secao4 {
+    margin-top: 60px;
+    margin-right: 10px;
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 12px 12px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  } 
+
+  #link {
+    margin-left:10px;
+    color: rgb(258,258,258);
+    text-decoration: none;
   }
-}
+  #link:hover {
+    color: rgb(76, 76, 252);
+  }
